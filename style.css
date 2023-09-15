@@ -86,3 +86,76 @@ header{
     width: 76%;
     color: gray;
 }
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.sec-1 .sec-1-item{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 3px 5px;
+    width: 15rem;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgb(201, 201, 201);
+}
+.sec-1 .sec-1-item img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+    border: 1px solid white;
+}
+.sec-1 .sec-1-item .item-details{
+    position: absolute;
+    bottom: 3px;
+    height: 25%;
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+    z-index: 2;
+    align-items: center;
+}
+.sec-1 .sec-1-item p{
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+.sec-2{
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.sec-2 h3{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.sec-2-place-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}.sec-2-place-items .sec-2-place-item{
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+}
+.sec-2-place-item{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(188, 188, 188);
+    padding: 20px;
+}
+.sec-2 .sec-2-place-item .place-head{
+    color: black;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.sec-2 .sec-2-place-item .place-no{
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    margin: 0;
+}
